@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01E545A1CB789AF00972582 /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E54591CB789AF00972582 /* EnterViewController.swift */; };
+		D01E545C1CB78D3C00972582 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E545B1CB78D3C00972582 /* CheckViewController.swift */; };
 		D0D8FAF31CB17284001665B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8FAF21CB17284001665B2 /* AppDelegate.swift */; };
 		D0D8FAF51CB17284001665B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8FAF41CB17284001665B2 /* ViewController.swift */; };
 		D0D8FAF81CB17284001665B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D8FAF61CB17284001665B2 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D01E54591CB789AF00972582 /* EnterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
+		D01E545B1CB78D3C00972582 /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		D0D8FAEF1CB17284001665B2 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D8FAF21CB17284001665B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D8FAF41CB17284001665B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				D0D8FAF91CB17284001665B2 /* Assets.xcassets */,
 				D0D8FAFB1CB17284001665B2 /* LaunchScreen.storyboard */,
 				D0D8FAFE1CB17284001665B2 /* Info.plist */,
+				D01E54591CB789AF00972582 /* EnterViewController.swift */,
+				D01E545B1CB78D3C00972582 /* CheckViewController.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D8FAF51CB17284001665B2 /* ViewController.swift in Sources */,
+				D01E545C1CB78D3C00972582 /* CheckViewController.swift in Sources */,
 				D0D8FAF31CB17284001665B2 /* AppDelegate.swift in Sources */,
+				D01E545A1CB789AF00972582 /* EnterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				D0D8FB191CB17284001665B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0D8FB1A1CB17284001665B2 /* Build configuration list for PBXNativeTarget "DiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				D0D8FB1C1CB17284001665B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0D8FB1D1CB17284001665B2 /* Build configuration list for PBXNativeTarget "DiaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				D0D8FB1F1CB17284001665B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
